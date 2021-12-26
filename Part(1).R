@@ -49,12 +49,14 @@ for(i in 2:nrow(data))
 }
 
 
-print(data[1:10,])
+
 
 #Adding a new column my_dates in dataframe
 data$days<-my_dates
 #Adding a new column week_days in dataframe
 data$week_days<-week_days
+
+
 
 
 
